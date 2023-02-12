@@ -1,4 +1,4 @@
-package inputAndOutput;
+package inputAndOutput.fileIoStream;
 
 import java.io.FileOutputStream;
 import java.io.IOException;
@@ -17,7 +17,7 @@ public class IoPractice {
 
         if (operation == 1) {
             try {
-                FileOutputStream out = new FileOutputStream("src/dataStore.txt");
+                FileOutputStream out = new FileOutputStream("src/fileIoStream/dataStore.txt");
                 System.out.println("enter your full name");
                 String message = scanner.next();
 

@@ -98,6 +98,7 @@ public class Utils {
                 Product.setPrice(price);
                 Product product = new Product(productId,name,quantity,price);
                 productList.add(product);
+                productList.addAll(productId, productList);
                 return product;
     }
 
